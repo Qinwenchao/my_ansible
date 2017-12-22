@@ -1,0 +1,7 @@
+# 设置所有的dns
+---
+- hosts: private_servers
+  remote_user: root
+  gather_facts: False
+  roles:
+    - role: pip

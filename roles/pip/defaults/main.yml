@@ -1,0 +1,3 @@
+---
+# 配置文件路径
+python_lib_dir: '/usr/lib64'

@@ -1,0 +1,6 @@
+[private_servers]
+nova ansible_ssh_host=111.231.222.104
+candy ansible_ssh_host=111.231.195.170
+
+[xcx_servers]
+nysb ansible_ssh_host=140.143.201.46

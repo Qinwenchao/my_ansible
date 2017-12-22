@@ -1,0 +1,12 @@
+# 设置编码集
+- name: set python default code to utf8
+  copy: src=sitecustomize.py dest={{ python_lib_dir }}/python2.7/site-packages/sitecustomize.py mode=644 owner=root
+
+# 安装春雨的python源
+#- name: Ensure chunyu python pypi
+#  pip: name=cy-pypi state=latest extra_args='-i https://da0292f9143e49aca905a643b0c54466:e9f9b93756eb47bca3d8b942c4cecbfc@pypi.chunyu.me/simple'
+
+#- name: Generate chunyu pip conf
+#  command: 'smart_update.py'
+#  changed_when: False
+#  failed_when: False
